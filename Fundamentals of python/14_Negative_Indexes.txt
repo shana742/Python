@@ -1,0 +1,11 @@
+   
+
+   14) What are negative indexes and why are they used
+
+    ->  Negative indices are used to access elements from the end of a sequence(string,list,tuple) rather than from the beginning.
+
+        why negative indexes are useful :
+              1) Convenience
+              2) Avoiding Length Calculation
+              3) Readable and Concise Code
+  
