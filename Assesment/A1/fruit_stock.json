@@ -1,0 +1,22 @@
+{
+    "apple": {
+        "qty": 20.0,
+        "price": 20.0
+    },
+    "bannan": {
+        "qty": 10.0,
+        "price": 10.0
+    },
+    "fr": {
+        "qty": 23.0,
+        "price": 23.0
+    },
+    "graps": {
+        "qty": 23.0,
+        "price": 3.0
+    },
+    "strabery": {
+        "qty": 23.0,
+        "price": 23.0
+    }
+}

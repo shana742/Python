@@ -1,0 +1,5 @@
+2024-07-21 11:24:53.836194: Added apple with qty 20.0 kg and price 20.0 per kg.
+2024-07-21 11:25:04.397551: Added bannan with qty 10.0 kg and price 10.0 per kg.
+2024-07-21 11:25:16.854427: Added fr with qty 23.0 kg and price 23.0 per kg.
+2024-07-21 11:25:30.827531: Added graps with qty 23.0 kg and price 3.0 per kg.
+2024-07-21 11:30:19.359346: Added strabery with qty 23.0 kg and price 23.0 per kg.
