@@ -1,0 +1,7 @@
+# How can you get a random number in python?
+
+
+import random
+
+random_float = random.uniform(1,50)
+print(f"Random float between 1 and 50: {random_float}")

@@ -1,0 +1,14 @@
+# 36_How_Do_You_Check_The_Presence_Of_A_Key_In_A_Dictionary?
+
+
+l = {'a':1,'b':2,'c':3}
+
+if 'b' in l:
+    print("'b' exitsts in the dictonry")
+else:
+    print("'b'  does not exit in the dictonry")
+if 'd' in l:
+    print("'d' exitsts in the dictonry")
+else:
+    print("'d'  does not exit in the dictonry")
+    

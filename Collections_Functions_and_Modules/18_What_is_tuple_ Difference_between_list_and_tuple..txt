@@ -1,0 +1,21 @@
+What is tuple? Difference between list and tuple.
+
+->  in python both used to store collection of items
+
+
+
+-> diffrence List & Tuple
+ List :-
+       -  List are mutable
+       -  List define using [' ']
+       -  List use lists when u have a collection  of items that may need to be
+       -  modified ,append,orextended.
+       -  List typically consume more memory compared to tuples due to thier
+          dynamic nature and extra functinilties like apped extend and remove.
+
+ Tuple :- 
+       -  Tuple are  immutable
+       -  Tuple define using ('')
+       -  Tuple use when u have a collection of item that should not change, such as coordinates, configuration settings
+           or constant values used across your programm.
+       -  Tuple are generally faster than list for iteration and accessing elements. especailly when the size of the collection is               fixed.
