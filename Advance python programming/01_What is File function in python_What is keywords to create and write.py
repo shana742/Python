@@ -5,5 +5,10 @@
 
 
 file = open('create.txt','w')
-file.write('hello')
+file.write('hello this is python. pthon assingment c ')
+file.write('\n Java')
+file.write('\n Javascript')
+file.write('\n c')
+file.write('\n C++')
+file.write('\n python')
 file.close()

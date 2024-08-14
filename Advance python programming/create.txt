@@ -1,1 +1,6 @@
-python filehandling 
+hello this is python. pthon assingment c 
+ Java
+ Javascript
+ c
+ C++
+ python

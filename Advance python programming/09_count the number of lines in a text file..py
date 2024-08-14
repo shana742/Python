@@ -1,6 +1,7 @@
-# Write a Python program to count the number of lines in a text file.
+# Write a Python program to count the number of lines in a text file.
 
-f = open("create.txt","r")
-lst = f.readlines()
-print("lines are :",len(lst))
-f.close()
+
+l = open("create.txt","r")
+count = l.readlines()
+print("lines are :",len(count))
+

@@ -6,26 +6,27 @@
 #from another class this allows for code reuse and the certion of a
 # hierarchical class strcture
 
-
-class Animal:
-    def __init__(self,name):
+class Person:
+    def __init__(self,name,age):
         self.name = name
-    def speack(self):
-        pass
+        self.age = age
+    def hello(self):
+        print(f"hello,my name is {self.name} and i am {self.age} ears old")
 
-class Dog(Animal):
-    def speck(self):
-        return f"{self.name} says Woof!"
+class Student(Person):
+    def __init__(self, name, age, id):
+        super().__init__(name,age)
+        self.id = id
+    def hello(self):
+        print(f"hello,my name is {self.name} and i my student id is {self.id} ")
 
-class Cat(Animal):
-    def speck(self):
-        return f"{self.name} says Moof!"
+student = Student(name="Harry",age=20, id='120')
 
-dog = Dog("buddy")
-cat = Cat("Whisker")
+print(student.name)
+print(student.age)
+print(student.id)
+print(student.hello())
 
-print(dog.speck())
-print(cat.speck())
 
 
 # __init__

@@ -8,4 +8,4 @@ try:
     num = int("abc")
     result = 10/0
 except(ValueError, ZeroDivisionError) as e:
-    print(f"An error occured:{e}")
+    print("An error occured:",e)

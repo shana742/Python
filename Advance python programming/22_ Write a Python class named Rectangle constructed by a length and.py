@@ -9,4 +9,4 @@ class Rectangle:
     def area(self):
         return self.length * self.width
 rect = Rectangle(5,3)
-print(f"the area of the rectangle is : {rect.area()}")
+print("the area of the rectangle is : ",rect.area())

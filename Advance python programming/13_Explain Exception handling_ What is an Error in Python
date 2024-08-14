@@ -1,7 +1,28 @@
 # Explain Exception handling? What is an Error in Python?
 
-# exception handling is a mechanism to grcefullyhandle errors and ensure that
-# your program can continue running or failt
+# exception handling  allows  u to manage and respond to runtime errors in a controklled manner
+# Diffrent types of exceptions : 
+#   A) Syntax Error 
+#    ->  This exception raised when the interpreter encounters syntax error in the code such as misspelled     
+#         keyword ,missing colon.
+#   B) Type Error
+#     -> This excpetion raised when a operation or function is applied to an object of the wrong type.
+#   C) NameError
+#     -> this exception is raied ehn a varible or function name is not found  in the current scope.
+#   D) IndexError
+#     -> This exception is raised when an index is out of range for a list , tule, or other sequence.
+#   E) KeyError
+#      -> this exception is raised when a key is not found in a dictionary.
+#   F) ValueError
+#     ->  Tihis exception rasied when a function or method is called with an invalid  argument or input, such as #         trying to conert a string to an interger when the string does not represent a valid integer. 
+#   G) AttributeError 
+#    -> This exception is raised when a atribute or method is raised when an attribute method is not found on an #       object, such as trying to access a non-existment of a class instance.  
+#   H) IoError
+#      -> when io operation such as reading or writing a file fails due to an input output error.
+#   I) ZeroDivision Error
+#      -> when an attempt is made to divide a number yo zero.
+#   K) ImportError
+#      -> when an import statement fails to find or load a module.
 # using 'try' , 'except','else',and 'finally'
 
 
@@ -14,3 +35,10 @@ else:
 finally:
     print("excution complete")
 
+
+
+
+# Errors in python :
+#   Errors i pythonn are issue that occure during the excution f a program
+# Ex:- l = [1,2,3]
+#       print(l[7])  (out of range error)

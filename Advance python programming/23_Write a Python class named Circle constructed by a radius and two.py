@@ -10,5 +10,5 @@ class Circle:
     def perimeter(self):
         return 2 * math.pi * self.radius
 circle = Circle(5)
-print(f"the area of the circle is : {circle.area()}")
-print(f"the permiter of the circle is:{circle.perimeter()}")
+print("the area of the circle is :", {circle.area()})
+print("the permiter of the circle is:",{circle.perimeter()})

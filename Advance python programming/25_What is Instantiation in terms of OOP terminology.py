@@ -6,12 +6,11 @@
 #    object is called an instance f the class.
 
 
-class Dog:
-    def __init__(self, name,breed):
+class Person:
+    def __init__(self,name,age):
         self.name = name
-        self.breed = breed
-    def bark(self):
-        return f"{self.name} syas woof!"
-my_dog = Dog("Rex","German Shepherd")
-print(my_dog.name)
-print(my_dog.bark())
+        self.age = age
+    def hello(self):
+        print(f"hello,my name is {self.name} and i am {self.age} ears old")
+p1 = Person("Harry",20)
+p1.hello()

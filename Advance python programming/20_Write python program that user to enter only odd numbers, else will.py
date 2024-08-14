@@ -5,12 +5,12 @@
 def oddnum():
     while True:
         try:
-            userinput =input("enter odd num")
+            userinput =input("enter odd num : ")
             num = int(userinput)
             if num %2 == 0:
                 raise ValueError("the number is not odd")
-            print(f"you entered an odd number : {num}")
+            print("you entered an odd number :",num)
             return num
         except ValueError as e:
-            print(f"Error: {e}.Please try again.")
+            print("Error: Please try again.",e)
 oddnum()

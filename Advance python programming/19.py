@@ -11,9 +11,9 @@ def divide(a,b):
     try:
         result = a/b
     except ZeroDivisionError as e:
-        print(f"Error: cannot divide by zero.({e})")
+        print("Error: cannot divide by zero.",e)
     else:
-        print(f"Divison succesuly Result: {result} ")
+        print("Divison succesuly Result: ",result)
     finally:
         print("excution of finally blocj")
 divide(10,2)

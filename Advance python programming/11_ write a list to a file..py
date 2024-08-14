@@ -2,6 +2,6 @@
 
 l = ["python",'java','js','saas','css','html']
 print(l)
-filename = open('create.txt','w')
-content = '\n'.join(l)
-filename.writelines(content)
+fname = open('create.txt','w')
+for item in l:
+    fname.write(item + '\n')
