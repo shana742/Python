@@ -1,0 +1,40 @@
+1)  Why Django should be used for web-development? Explain how you can create a project in Django?
+
+-> Django is popular web framework for developing web applicatio in python and it comes with serval advantage:
+        
+         A) Scalability
+         B) Versatile
+         C) Community and Documentation
+         D) Security
+         E) Rapid Development
+
+=> Create Django 
+
+ ->  create virtual enviorment:
+       - python -m venv myvenv
+ 
+ ->  activate the virtual enviorment:
+       - myvenv\Scripts\activate
+
+ ->  insttall django:
+       - pip install django
+ 
+ ->  create a requirments files(specific packges)
+       - pip freeze > requirements.txt
+
+ ->  start a new django project(admin):
+       - django-admin startproject mysite .
+
+ ->  Apply migrations:
+       - python mange.py migrate
+
+ ->  Run the server :
+       - python manage.py runserver
+
+ ->  create a speruser:
+       - python mange.py createsuperuser
+
+ ->  start new app (user):
+       - python manage.py startapp .myapp
+       
+ 

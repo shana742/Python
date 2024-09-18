@@ -1,0 +1,4 @@
+6) Mention what command line can be used to load data into Django?
+
+->  To load data into Django you have to use the command line django-admin.py loaddtata. The command line will serches 
+    the data loads the contents of the named fixture into the databse.

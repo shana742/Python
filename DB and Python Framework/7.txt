@@ -1,0 +1,7 @@
+7) Explain what does django-admin.py make messages command is used for?
+=> 
+    - django admin  use you models to automatically build a site area that you can use to create, 
+      view , update, and delete records.
+
+    - the makemessage command helps you generate translaton files for diffrent languages in your django project
+      allowing you to provide i18n support for various language.

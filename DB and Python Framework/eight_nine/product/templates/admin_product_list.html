@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+          <h1>Product List</h1>
+<a href="{% url 'admin_add_product' %}">Add Product</a>
+<a href="{% url 'admin_add_subcat' %}">Add Product Subcategory</a>
+<table>
+    <tr>
+        <th>Product Name</th>
+        <th>Model</th>
+        <th>RAM</th>
+        <th>Price</th>
+        <th>Image</th>
+        <th>Actions</th>
+    </tr>
+    {% for product in products %}
+    <tr>
+        <td>{{ product.product.product_name }}</td>
+        <td>{{ product.model }}</td>
+        <td>{{ product.ram }}</td>
+        <td>{{ product.price }}</td>
+        <td><img src="{{ product.image.url }}" alt="{{ product.model }}" width="100"></td>
+        <td>
+            <a href="{% url 'admin_edit_product' product.pk %}">Edit</a>
+            <a href="{% url 'admin_delete_product' product.pk %}">Delete</a>
+        </td>
+    </tr>
+    {% endfor %}
+</table>
+
+</body>
+</html>
